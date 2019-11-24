@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+         <style>
+                 body{
+            background-image: url("assets/3201.jpg");
+             background-repeat: no-repeat;
+             background-position: center;
+             background-attachment: fixed;
+             background-size: cover;
+            }
+            #studentform{
+                float: none;
+                padding: auto;
+                
+            }
+            form{
+                background-color: white;
+                padding: 20px;
+                margin-top: 50px;
+                width:500px;
+                text-align: center;
+            }
+         </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="offset-3 col" id="studentform">
+                    <form action="validate" method="post">
+                        <h2>Login Form</h2>
+                        <label class="input-group-text">Student ID</label><br>
+                        <input type="text" name="userid" placeholder="Enter your ID"  class="form-control"><br>
+                        <label class="input-group-text">password</label><br>
+                        <input type="password" name="userpassword" placeholder="Enter your password"  class="form-control"><br>
+                    <button type="submit" class="btn btn-info">Submit</button>
+                    </form>
+                </div>    
+            </div>
+         </div>
+    </body>
+</html>
